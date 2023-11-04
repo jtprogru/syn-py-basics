@@ -1,4 +1,10 @@
+"""
+Домашнее задание
+"""
+
+
 def calculator():
+    """Calculator"""
     print("Добро пожаловать в программу калькулятора!")
     print("Доступные операции: '+', '-'")
 
@@ -6,7 +12,7 @@ def calculator():
     operation = input("Выберите операцию (+ или -): ")
 
     # Проверить правильность введенной операции
-    if operation not in ['+', '-']:
+    if operation not in ["+", "-"]:
         print("Ошибка! Введите корректную операцию (+ или -)")
         return
 
@@ -17,12 +23,12 @@ def calculator():
     num2 = float(input("Введите второе число: "))
 
     # Выполнить выбранную операцию
-    if operation == '+':
+    if operation == "+":
         result = num1 + num2
         print(f"Результат сложения: {num1} + {num2} = {result}")
     else:
         result = num1 - num2
         print(f"Результат вычитания: {num1} - {num2} = {result}")
 
-calculator()  # Вызов функции для запуска программы
 
+calculator()  # Вызов функции для запуска программы

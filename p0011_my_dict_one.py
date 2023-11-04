@@ -1,3 +1,8 @@
+"""
+Домашнее задание
+"""
+
+
 # Создание пустого словаря
 my_dict = {}
 
@@ -16,14 +21,10 @@ my_dict["age"] = 26
 # Добавление ключа "email" в словарь
 my_dict["email"] = "john@example.com"
 
-# Проверка наличия ключа "country" в словаре
-if "country" in my_dict:
-    print("Ключ 'country' найден в словаре.")
-else:
-    print("Ключ 'country' не найден в словаре.")
+# Удаление ключа "city" из словаря
+my_dict.pop("city", None)
 
 # Вывод всех ключей и значений из словаря
 print("\nКлючи и значения из словаря my_dict:")
 for key, value in my_dict.items():
     print(f"Ключ: {key}, Значение: {value}")
-

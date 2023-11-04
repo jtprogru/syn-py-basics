@@ -1,7 +1,9 @@
+"""
+Домашнее задание
+"""
+
+
 number = int(input("Введите целое число: "))
-i = 0
 
-while i <= number:
+for i in range(number + 1):
     print(i)
-    i += 1
-
