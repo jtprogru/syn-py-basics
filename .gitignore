@@ -6,9 +6,4 @@ env/
 __pycache__/
 .env
 .vscode/
-FUCKUPS.md
-TODO.md
-*.sqlite
-*.sqlite3
-example.sls
-
+sample.txt
